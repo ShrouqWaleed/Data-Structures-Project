@@ -1,0 +1,291 @@
+
+@font-face {
+    src: url("Electrolize.ttf");
+    /*src: url("Tektur.ttf");*/
+    /*src: url("batmfa__.ttf");*/
+    /*src: url("American_Captain.ttf");*/
+    /*src: url("Comfortaa-Regular.ttf");*/
+    /*src: url("Coolvetica.otf");*/
+    /*src: url("Vogue.ttf");*/
+}
+
+ /*------------ LABELS ----------------*/
+.MainLabels {
+    -fx-font-family: "Electrolize";
+    -fx-effect: dropshadow(three-pass-box, black, 1, 1, 3, 2);
+}
+.subLabels {
+    -fx-font-family: "Electrolize";
+}
+
+/* PANES */
+
+
+.MainPane {
+
+    -fx-background-color:  #214370;
+
+}
+.sidePane {
+    -fx-background-color: #214370;
+}
+.topPane {
+    -fx-background-color:  #849ebf;
+}
+
+/* BUTTONS */
+.mainButtons1 {
+    -fx-font-family: "Electrolize";
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-border-width: 0 0 4 0;
+    -fx-padding: 0;
+    -fx-text-fill: black;
+    -fx-font-size: 24;
+
+}
+.mainButtons1:hover,
+.mainButtons2:hover,
+.mainButtons3:hover {
+    -fx-font-family: "Electrolize";
+    -fx-background-color:  #214370;
+    -fx-background-radius: 50;
+    -fx-border-color: transparent transparent transparent transparent;
+    -fx-background-insets: 10 3 10 3;
+    -fx-text-fill: white;
+    -fx-font-size: 24;
+
+
+}
+.mainButtons1:focused,
+.mainButtons2:focused,
+.mainButtons3:focused {
+    -fx-font-family: "Electrolize";
+    -fx-background-color:  radial-gradient( center 50% 40%, radius 65%, #60738c , #214370);
+    -fx-background-radius: 20 20 0 0;
+    -fx-border-color: transparent;
+    -fx-background-insets: 8 0 0 0;
+    -fx-text-fill: white;
+    -fx-font-size: 24;
+
+
+}
+.mainButtons2 {
+    -fx-font-family: "Electrolize";
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-border-width: 0 0 4 0;
+    -fx-border-radius: 0 0 0 4;
+    -fx-padding: 10;
+    -fx-text-fill: black;
+    -fx-font-size: 24;
+
+}
+
+
+.mainButtons3 {
+    -fx-font-family: "Electrolize";
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-border-width: 0 0 4 0;
+    -fx-border-radius: 0 0 4 0;
+    -fx-padding: 10;
+    -fx-text-fill: black;
+    -fx-font-size: 24;
+
+}
+
+/*SIDE BUTTONS*/
+
+
+
+.sideButton1 {
+    -fx-font-family: "Electrolize";
+    -fx-background-color: linear-gradient(to left, #214370, #11243c);
+    -fx-background-radius: 35 0 0 0;
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    /*-fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);*/
+
+
+
+}
+.sideButton2 {
+    -fx-font-family: "Electrolize";
+    -fx-background-color: linear-gradient(to left, #214370, #11243c);
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    /*-fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);*/
+
+
+
+}
+.sideButton3 {
+    -fx-font-family: "Electrolize";
+    -fx-background-color: linear-gradient(to left, #214370, #11243c);
+    -fx-background-radius: 0 0 0 35;
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+    /*-fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);*/
+
+
+
+}
+.sideButton1:hover,
+.sideButton2:hover,
+.sideButton3:hover
+{
+    -fx-font-family: "Electrolize";
+    -fx-background-color: linear-gradient(to left, #214370 25%, #849ebf);
+    -fx-border-color: transparent transparent transparent transparent;
+    -fx-font-size: 18;
+    -fx-cursor: crosshair;
+
+}
+ /*
+ --------------------------ADD SHADOW TO BUTTONS------------------------------[
+ */
+
+
+ /*---------- this is a current good design ---------------*/
+
+.sideButton1:focused,
+.sideButton2:focused,
+.sideButton3:focused {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 18;
+    -fx-background-color: linear-gradient(to left, #214370 30%, #849ebf);
+    -fx-effect: dropshadow(three-pass-box, black, 15, 0, -2, 0);
+    -fx-background-insets: 3;
+
+
+
+}
+
+
+.sideButton1:pressed,
+.sideButton2:pressed,
+.sideButton3:pressed
+{
+    -fx-font-size: 17;
+    -fx-font-family: "Electrolize";
+    -fx-border-color: transparent;
+
+}
+/*linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #a13030 0.0%, #a13030 48.4345%, #ffffff 100.0%*/
+
+
+.textFields {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    -fx-border-color: linear-gradient(to left, #214370, #849ebf);
+    -fx-border-radius: 15;
+    -fx-border-width: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(two-pass-box, black, 1, 20, 0, 0);
+
+}
+.textFields:focused {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    -fx-background-color: linear-gradient(to left, #214370, #849ebf);
+    -fx-border-color: linear-gradient(to right, #214370, #849ebf);
+    -fx-border-insets: 2;
+    -fx-background-radius: 15;
+    -fx-background-insets: 3;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(gaussian, black, 50, 0, 0, 0);
+}
+.alterTextFields1,
+.alterTextFields2,
+.alterTextFields3 {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    /*-fx-border-color: linear-gradient(to left, #214370, #849ebf);*/
+    -fx-border-radius: 15;
+    -fx-border-width: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.alterTextFields1:focused {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    -fx-background-color: linear-gradient(to left, #214370, #849ebf);
+    /*-fx-border-color: linear-gradient(to right, #214370, #849ebf);*/
+    -fx-border-insets: 2;
+    -fx-background-radius: 13 0 0 13;
+    -fx-text-fill: black;
+    /*-fx-effect: dropshadow(gaussian, black, 6, 0, 0, 0);*/
+}
+.alterTextFields2:focused {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    -fx-background-color: linear-gradient(to left, #214370, #849ebf);
+    /*-fx-border-color: linear-gradient(to right, #214370, #849ebf);*/
+    -fx-border-insets: 2;
+    -fx-background-radius: 0;
+    -fx-text-fill: black;
+    /*-fx-effect: dropshadow(gaussian, black, 6, 0, 0, 0);*/
+}
+.alterTextFields3:focused {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    -fx-background-color: linear-gradient(to left, #214370, #849ebf);
+    /*-fx-border-color: linear-gradient(to right, #214370, #849ebf);*/
+    -fx-border-insets: 2;
+    -fx-background-radius: 0 13 13 0;
+    -fx-text-fill: black;
+    /*-fx-effect: dropshadow(gaussian, black, 6, 0, 0, 0);*/
+}
+
+
+
+.mainSubPaneButtons {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    -fx-background-color: linear-gradient(to bottom left, #11243c 20%, #214370 , #849ebf );
+    -fx-background-radius: 40;
+    -fx-effect: dropshadow(three-pass-box, black, 36, 0, 0, 0);
+
+}
+.mainSubPaneButtons:hover {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    -fx-background-color: linear-gradient(to top right, #11243c 20%, #214370 , #849ebf );
+    /*#ccaf79*/
+
+}
+.mainSubPaneButtons:pressed {
+    -fx-font-family: "Electrolize";
+    -fx-font-size: 32;
+    -fx-background-insets: 2;
+}
+
+.transparent-scrollpane {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+.scroll-bar .thumb {
+    -fx-background-color: linear-gradient(to bottom left, #11243c 20%, #214370 , #849ebf );
+    -fx-background-radius: 10000;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    visibility: hidden;
+
+}
+
+
+
