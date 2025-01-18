@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8daacec7-037e-4373-b2c6-862f6f1fcf80" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2pdG08oG3arqTC2LzNzjYp7Y7s1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GUI.MainGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TESTdb.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaFX/javafx-sdk-22.0.1/lib&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ammar\IdeaProjects\DataProject\src\Backend" />
+      <recent name="C:\Users\ammar\IdeaProjects\DataProject\src\Test" />
+      <recent name="C:\Users\ammar\IdeaProjects\DataProject\src\GUI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GUI.MainGUI">
+    <configuration name="GUI.MainGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.MainGUI" />
+      <module name="DataProject" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\JavaFX\javafx-sdk-22.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainGUI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Backend.Main" />
+      <module name="DataProject" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\ammar\IdeaProjects\JAVA_FX (NOT A JAVA FILE)\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TESTdb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backend.TESTdb" />
+      <module name="DataProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainGUI" />
+      <item itemvalue="Application.TESTdb" />
+      <item itemvalue="Application.GUI.MainGUI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GUI.MainGUI" />
+        <item itemvalue="Application.TESTdb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8daacec7-037e-4373-b2c6-862f6f1fcf80" name="Changes" comment="" />
+      <created>1733088316022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733088316022</updated>
+      <workItem from="1733088317036" duration="1054000" />
+      <workItem from="1733414620343" duration="264000" />
+      <workItem from="1733416102534" duration="2093000" />
+      <workItem from="1733488288359" duration="812000" />
+      <workItem from="1733490298837" duration="11492000" />
+      <workItem from="1734039802806" duration="99730000" />
+      <workItem from="1734783393869" duration="6557000" />
+      <workItem from="1734794461389" duration="22550000" />
+      <workItem from="1734871919184" duration="3304000" />
+      <workItem from="1734878126573" duration="2792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
